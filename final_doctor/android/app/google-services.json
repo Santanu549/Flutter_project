@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "847029828782",
+    "project_id": "final-doctor-55b93",
+    "storage_bucket": "final-doctor-55b93.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847029828782:android:034c36395a55c832a1013f",
+        "android_client_info": {
+          "package_name": "com.example.final_doctor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiI4Z121kBEvxzPfQ9-P03PITrsOYu1PU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
