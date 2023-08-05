@@ -1,11 +1,9 @@
+import 'package:flash/screens/flashlight_app.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-
-///
-import '../bindings/my_bindings.dart';
-import '../screen/main_screen.dart';
+import 'package:torch_controller/torch_controller.dart';
 
 void main() {
+  TorchController().initialize();
   runApp(const MyApp());
 }
 
@@ -14,11 +12,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialBinding: MyBindings(),
-      title: "Flutter Calculator",
-      home: MainScreen(),
+      home: FlashLightApp(),
     );
   }
 }
