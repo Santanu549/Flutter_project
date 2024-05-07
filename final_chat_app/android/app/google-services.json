@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "991885603631",
+    "project_id": "final-chat-32ded",
+    "storage_bucket": "final-chat-32ded.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:991885603631:android:74d84d96b7704e001f67da",
+        "android_client_info": {
+          "package_name": "com.example.final_chat_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4gLqnVFXgJGoCxi3M5ZFrMPRu06gmiAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
